@@ -14,6 +14,9 @@ const connect = async () => {
     }
 }
 app.use(express.json())
+app.use('/',(res,req)=>{
+    res.send("Server is running")
+})
 app.use('/api/contact', contactRoute)
 
 app.listen(3000, () => {
