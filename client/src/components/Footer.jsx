@@ -170,8 +170,10 @@ const Footer = () => {
             </div>
           </div> */}
           <div className='w-full flex flex-col justify-center gap-[8px] md:gap-[16px]'>
-            <div className=' w-full flex justify-center items-center bg-[#F5FAFF] h-[40px] p-[8px] rounded-[50%]'>
-              <img src={Hexagon} alt="icon" />
+            <div className='flex flex-col justify-center items-center '>
+              <div className='flex justify-center items-center bg-[#F5FAFF] h-[40px] w-[40px] p-[8px] rounded-[50%]'>
+                <img src={Hexagon} alt="icon" />
+              </div>
             </div>
             <span className='text-[#5F6D7E] text-[16px] leading-[24px] tracking-[-0.1px] text-center md:text-left lg:text-center'>
               © 2023 Lookscout. All Rights Reserved.
